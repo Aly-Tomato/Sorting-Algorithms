@@ -7,6 +7,7 @@ I chose to work with Python because I'm currently working on a lot of projects i
 The biggest difficulty faced with implementation is learning a new language. You may see some C tendencies in the code which I plan on cleaning up later and making the code more "pythonic". 
 
 ##### Graph or tables of the run times of your algorithm implementations on various sized inputs. Do this with sorted and randomized inputs. Do your observations match the theoretical analysis from class? Why or why not?
+[View HTML Plotly graph here](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Timing Results Line Graph")
 The default test framework will execute tests for three sorting algorithms: selection sort, merge sort and counting sort. 
 
 
