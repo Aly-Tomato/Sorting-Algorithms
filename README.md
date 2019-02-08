@@ -2,7 +2,8 @@
 Project created by Alyssa Tamayo for CS350 Homework 2
 
 ## Usage  
-```$ git clone https://github.com/Aly-Tomato/SortingAlgorithms.git  
+```
+$ git clone https://github.com/Aly-Tomato/SortingAlgorithms.git  
 $ python3 hw2.py  
 ```
 
