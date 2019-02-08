@@ -2,8 +2,7 @@
 Alyssa Tamayo CS350 - HW 2
 
 ##### Briefly describe your development process. What sources did you use for your algorithms? What programming language did you choose and why?
-I chose to work with Python because I'm currently working on a lot of projects in Python at work. I am very drawn to this language in terms of automating some work I do either in school or in the professional setting. I'm relatively new to Python and thought this project would be the best way to better hone in my Python skills. I also wanted to get better acquainted with the data analyzing libraries available to Python such as pandas, numpy and plotly. Below you will see the results of these tests graphed out using these tools. 
-
+I chose to work with Python because I'm currently working on a lot of projects in Python at work. I am very drawn to this language in terms of automating some work I do either in school or in the professional setting. I'm relatively new to Python and thought this project would be the best way to better hone in my Python skills. I also wanted to get better acquainted with the data analyzing libraries available to Python such as pandas, numpy and plotly. Below you will see the results of these tests graphed out using these tools.  
 ##### Did you run into any difficulties with the implementation? How are you timing the algorithms? What hardware are you timing on?
 The biggest difficulty faced with implementation is learning a new language. You may see some C tendencies in the code which I plan on cleaning up later and making the code more "pythonic". 
 
