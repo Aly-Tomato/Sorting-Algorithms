@@ -3,8 +3,8 @@ import myUtils
 import sort
 
 ROUND = 4 #round to ith of a second
-RANGE = 500 #run how many tests
-iSIZE = 30 #initial size of list
+RANGE = 1000 #run how many tests
+iSIZE = 1000 #initial size of list
            #every subsequent size*=10
 PRINT = False #print results after every run?
 
@@ -14,6 +14,7 @@ def main():
     global ROUND
     global PRINT
     size = iSIZE
+    """
     #Selection Sort Test
     test_name = "Selection Sort - unsorted"
     print("*******************************") 
@@ -51,8 +52,8 @@ def main():
         if(PRINT):
             myUtils.print_pretty(i, len(sel_sorted_lists[i]), ticks, ROUND)
         myUtils.write_to_file([(test_name,len(sel_sorted_lists[i]),round(ticks,ROUND))])
+    """
     #Merge Sort Test
-    size = iSIZE
     test_name = "Merge Sort - unsorted"
     print("\n*******************************") 
     print(f"Test Name:\t{test_name}")
