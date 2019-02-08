@@ -1,5 +1,5 @@
-## 350SortingAlgos Requires Python3
-Alyssa Tamayo CS350 - HW 2
+## Sorting Algorithms
+Project created by Alyssa Tamayo for CS350 Homework 2
 
 ##### Briefly describe your development process. What sources did you use for your algorithms? What programming language did you choose and why?
 I chose to work with Python because I'm currently working on a lot of projects in Python at work. I am very drawn to this language in terms of automating some work I do either in school or in the professional setting. I'm relatively new to Python and thought this project would be the best way to better hone in my Python skills. I also wanted to get better acquainted with the data analyzing libraries available to Python such as pandas, numpy and plotly. Below you will see the results of these tests graphed out using these tools.  
