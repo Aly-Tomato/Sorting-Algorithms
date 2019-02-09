@@ -26,11 +26,11 @@ The biggest difficulty faced with implementation is learning a new language and 
 #### Graph or tables of the run times of your algorithm implementations on various sized inputs. Do this with sorted and randomized inputs. Do your observations match the theoretical analysis from class? Why or why not?
 The default test framework will execute tests for three sorting algorithms: selection sort, merge sort and counting sort.  
 
-[View interactive Plotly line graph results for all sorts with small data sets](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Default test results link")  
+[Click to view interactive Plotly line graph results for all sorts with small data sets](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Default test results link")  
 [![](https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/default_test.JPG)](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Default test image link")  
-The default test will execute a total of 4,500 tests, 500 tests are performed with unsorted lists, sorted lists, and reverse sorted lists of various sizes starting at 30 for each sorting algorithm. 
+The default test will execute a total of 4,500 tests, 500 tests are performed with unsorted lists, sorted lists, and reverse sorted lists of various sizes starting at 30 for each sorting algorithm. As you can quickly see in the image above, selection sort 
 
-[View interactive Plotly line graph results for merge sort & counting sort with large data sets](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Merge%20%26%20Count%20Sort%20Large%20Set.html "Large test results link")    
+[Click to view interactive Plotly line graph results for merge sort & counting sort with large data sets](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Merge%20%26%20Count%20Sort%20Large%20Set.html "Large test results link")    
 [![](https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/large_test.JPG)](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Merge%20%26%20Count%20Sort%20Large%20Set.html "Large test image link") 
 
 Selection sort performed at an alarmingly slow rate as list sizes approached 50,000. Because of this, I decided to omit selection sort from the following test. This test pushed the boundries of merge sort and counting sort to better see how their performance compares from one another. This test will execute a total of 5000 tests with the size of the lists starting at 1000 and growing until list size of close to 11,000. This was enough to start seeing where these two algorithms start to difference in performance.
