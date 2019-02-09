@@ -38,7 +38,7 @@ Selection sort performed at an alarmingly slow rate as list sizes approached 50,
 ## Links
 
 The following are resources used on this project:
-* [http://interactivepython.org/courselib/static/pythonds/SortSearch/TheSelectionSort.html]
-* [http://interactivepython.org/courselib/static/pythonds/SortSearch/TheMergeSort.html]
-* [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet]
+* [http://interactivepython.org/courselib/static/pythonds/SortSearch/TheSelectionSort.html](http://interactivepython.org/courselib/static/pythonds/SortSearch/TheSelectionSort.html)
+* [http://interactivepython.org/courselib/static/pythonds/SortSearch/TheMergeSort.html](http://interactivepython.org/courselib/static/pythonds/SortSearch/TheMergeSort.html)
+* [https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
