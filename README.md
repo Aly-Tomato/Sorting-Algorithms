@@ -1,5 +1,5 @@
 ## Sorting Algorithms
-Project created by Alyssa Tamayo for CS350 Homework 2
+Algorithms project that implements, tests and compares three different sorting algorithms using python, pandas, numpy and plotly.
 
 ## Usage  
 ```
