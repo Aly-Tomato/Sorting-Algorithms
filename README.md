@@ -22,12 +22,16 @@ The biggest difficulty faced with implementation is learning a new language and 
 ```
 
 
-##### Graph or tables of the run times of your algorithm implementations on various sized inputs. Do this with sorted and randomized inputs. Do your observations match the theoretical analysis from class? Why or why not?  
-[View HTML Plotly graph results for all sorts with sizeable data set](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Timing Results Line Graph")  
+##### Graph or tables of the run times of your algorithm implementations on various sized inputs. Do this with sorted and randomized inputs. Do your observations match the theoretical analysis from class? Why or why not?
+The default test framework will execute tests for three sorting algorithms: selection sort, merge sort and counting sort.  
+
+[View HTML Plotly line graph results for all sorts with sizeable data set](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Timing Results Line Graph")  
+The default test will execute a total of 4,500 tests, 500 tests are performed with unsorted lists, sorted lists, and reverse sorted lists of various sizes starting at 30 for each sorting algorithm. 
 
 [View HTML Plotly line graph results for merge sort & counting sort with large data set](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Merge%20%26%20Count%20Sort%20Large%20Set.html "Merge Sort & Counting Sort Line Graph Results")  
+Selection sort performed at an alarmingly slow rate as list sizes approached 50,000. Because of this, I decided to omit selection sort from the following test. This test pushed the boundries of merge sort and counting sort to better see how their performance compares from one another. This test will execute a total of 5000 tests with the size of the lists starting at 1000 and growing until list size of close to 11,000. This was enough to start seeing where these two algorithms start to difference in performance.
 
-The default test framework will execute tests for three sorting algorithms: selection sort, merge sort and counting sort. 
+
 
 
 ##### Comparison of your results with each other. How does each fare under different testing circumstances? Given your results, in what real world situations would you favor one algorithm over the others?
