@@ -26,7 +26,8 @@ The biggest difficulty faced with implementation is learning a new language and 
 #### Graph or tables of the run times of your algorithm implementations on various sized inputs. Do this with sorted and randomized inputs. Do your observations match the theoretical analysis from class? Why or why not?
 The default test framework will execute tests for three sorting algorithms: selection sort, merge sort and counting sort.  
 
-[View HTML Plotly line graph results for all sorts with sizeable data set](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Timing Results Line Graph")  
+[View HTML Plotly line graph results for all sorts with sizeable data set](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Default Test Results Line Graph")
+![](https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/default_test.JPG "Large Sets Test Results Line Graph Image")
 The default test will execute a total of 4,500 tests, 500 tests are performed with unsorted lists, sorted lists, and reverse sorted lists of various sizes starting at 30 for each sorting algorithm. 
 
 [View HTML Plotly line graph results for merge sort & counting sort with large data set](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Merge%20%26%20Count%20Sort%20Large%20Set.html "Merge Sort & Counting Sort Line Graph Results")  
