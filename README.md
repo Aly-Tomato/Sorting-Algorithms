@@ -34,6 +34,7 @@ Selection sort performed at an alarmingly slow rate as list sizes approached 50,
 
 
 #### Comparison of your results with each other. How does each fare under different testing circumstances? Given your results, in what real world situations would you favor one algorithm over the others?
+Given the results it is safe to conclude that selection sort was the poorest performing algorithm of the three. When the data set is small, selection sort will perform roughy within the time frame as merge sort and counting sort. However, as you can see by the interactive graph, selection sort performance starts to grow exponentially at a list size of 200. 
 
 ## Links
 
