@@ -7,16 +7,26 @@ $ git clone https://github.com/Aly-Tomato/SortingAlgorithms.git
 $ cd SortingAlgorithms
 $ python3 hw2.py  
 ```
+## Project Write Up
+##### Briefly describe your development process. What sources did you use for your algorithms? What programming language did you choose and why?  
+I chose to work with Python because I'm at the exciting stage in the language where I'm building useful scripts to automate certain tasks at work.I'm relatively new to Python and thought this project would be the best way to better hone in my Python skills. I also wanted to get better acquainted with the data analyzing libraries available to Python such as pandas, numpy and plotly. Below you will see links to the results of these tests graphed out using these aformentioned tools.
 
-##### Briefly describe your development process. What sources did you use for your algorithms? What programming language did you choose and why?
-I chose to work with Python because I'm currently working on a lot of projects in Python at work. I am very drawn to this language in terms of automating some work I do either in school or in the professional setting. I'm relatively new to Python and thought this project would be the best way to better hone in my Python skills. I also wanted to get better acquainted with the data analyzing libraries available to Python such as pandas, numpy and plotly. Below you will see the results of these tests graphed out using these tools.  
-##### Did you run into any difficulties with the implementation? How are you timing the algorithms? What hardware are you timing on?
-The biggest difficulty faced with implementation is learning a new language. You may see some C tendencies in the code which I plan on cleaning up later and making the code more "pythonic". 
+##### Did you run into any difficulties with the implementation? How are you timing the algorithms? What hardware are you timing on?  
+The biggest difficulty faced with implementation is learning a new language and exploring the vast libraries python has to offer in data analysis. You may see some C tendencies in the code which I plan on cleaning up later and making the code more "pythonic". To time the algorithms I used clock as part of the library time to count the ticks that occur during the individual runs of the tests. Per documentation found at https://docs.python.org/2/library/time.html, time.clock() when used on Unix, which is the case here, "returns the current processor time as a floating point number expressed in seconds."
 
-##### Graph or tables of the run times of your algorithm implementations on various sized inputs. Do this with sorted and randomized inputs. Do your observations match the theoretical analysis from class? Why or why not?
+```python
+  t1 = time.clock()
+  #perform test
+  t = time.clock()
+  ticks = t -t1
+```
+
+
+##### Graph or tables of the run times of your algorithm implementations on various sized inputs. Do this with sorted and randomized inputs. Do your observations match the theoretical analysis from class? Why or why not?  
 [View HTML Plotly graph results for all sorts with sizeable data set](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Timing Results Line Graph")  
 
 [View HTML Plotly line graph results for merge sort & counting sort with large data set](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Merge%20%26%20Count%20Sort%20Large%20Set.html "Merge Sort & Counting Sort Line Graph Results")  
+
 The default test framework will execute tests for three sorting algorithms: selection sort, merge sort and counting sort. 
 
 
