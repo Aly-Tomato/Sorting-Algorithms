@@ -33,3 +33,11 @@ Selection sort performed at an alarmingly slow rate as list sizes approached 50,
 
 
 #### Comparison of your results with each other. How does each fare under different testing circumstances? Given your results, in what real world situations would you favor one algorithm over the others?
+
+## Links
+
+The following are resources used on this project:
+* http://interactivepython.org/courselib/static/pythonds/SortSearch/TheSelectionSort.html
+* http://interactivepython.org/courselib/static/pythonds/SortSearch/TheMergeSort.html
+* https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
