@@ -1,4 +1,4 @@
-!["Large test results image"]({{site.url}}{{site.baseurl}}/blob/master/large_test.JPG)
+!["Large test results image"]({{site.url}}{{site.baseurl}}/blob/master/large_test.jpg)
 ## Sorting Algorithms
 Algorithms project that implements, tests and compares three different sorting algorithms using python, pandas, numpy and plotly.  The sorting algorithms are 1. Selection Sort 2. Merge Sort 3. Counting Sort.
 
