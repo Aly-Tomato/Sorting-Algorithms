@@ -1,4 +1,3 @@
-![](/default_test.JPG)
 ## Sorting Algorithms
 Algorithms project that implements, tests and compares three different sorting algorithms using python, pandas, numpy and plotly.  The sorting algorithms are 1. Selection Sort 2. Merge Sort 3. Counting Sort.
 
@@ -30,7 +29,7 @@ The biggest difficulty faced with implementation was learning a new language and
 I decided to work with these sorting algorithms because I was curious to see them plot out on the graph knowing that each three belong to difference time complexity classes. Selection sort's time complexity is <a href="https://www.codecogs.com/eqnedit.php?latex=O(n^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(n^2)" title="O(n^2)" /></a>, merge sort's time complexity is <a href="https://www.codecogs.com/eqnedit.php?latex=O(nlog(n))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(nlog(n))" title="O(nlog(n))" /></a> and counting sort is linear <a href="https://www.codecogs.com/eqnedit.php?latex=O(n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(n)" title="O(n)" /></a> but there is a space and time trade off that isn't tracked in this study.
 
 [Click to view interactive Plotly line graph results for all sorts with small data sets](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Default test results link")   
-[<img src="default_test.JPG">](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html)
+[<img src="default_test.JPG">](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Default test results image link")
 
  The default test will execute a total of 4,500 tests. A set of 500 tests are performed with unsorted lists, sorted lists, and reverse sorted lists for each sorting algorithm. The test begins with a list size of 30 and is incremented by 10 as every new test occurs. As you can quickly see in the image above, selection sort's growth is much faster regardless of whether the list is sorted or not after a list size of about 500. **This matches the theoretical analysis from class** as Selection Sort's best and worst case performance is  <a href="https://www.codecogs.com/eqnedit.php?latex=O(n^2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(n^2)" title="O(n^2)" /></a>. By the graphical analysis alone it's hard to tell whether merge sort has a slower of faster performance than counting sort. To better under that relationship I conducted a separate cycle of tests excluding selection sort below.  
 
