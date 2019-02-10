@@ -7,6 +7,8 @@ $ git clone https://github.com/Aly-Tomato/SortingAlgorithms.git
 $ cd SortingAlgorithms
 $ python3 hw2.py  
 ```
+Or, download with the links above.
+
 ## Project Write Up
 #### Briefly describe your development process. What sources did you use for your algorithms? What programming language did you choose and why?  
 
