@@ -10,10 +10,10 @@ $ python3 hw2.py
 ```
 ## Project Write Up
 #### Briefly describe your development process. What sources did you use for your algorithms? What programming language did you choose and why?  
-I chose to work with Python because I'm at the exciting stage in the language where I'm building useful scripts to automate certain tasks at work.I'm relatively new to Python and thought this project would be the best way to better hone in my Python skills. I also wanted to get better acquainted with the data analyzing libraries available to Python such as pandas, numpy and plotly. Below you will see links to the results of these tests graphed out using these aformentioned tools.
+I chose to work with Python because I'm at the exciting stage in the language where I'm building useful scripts to automate certain tasks at work. I'm relatively new to Python and thought this project would be the best way to better hone in my Python skills. I also wanted to get better acquainted with the data analyzing libraries available to Python such as pandas, numpy and plotly. Below you will see links to the results of these tests graphed out using the aformentioned tools.
 
 #### Did you run into any difficulties with the implementation? How are you timing the algorithms? What hardware are you timing on?  
-The biggest difficulty faced with implementation is learning a new language and exploring the vast libraries python has to offer in data analysis. You may see some C tendencies in the code which I plan on cleaning up later and making the code more "pythonic". To time the algorithms I used clock as part of the library time to count the ticks that occur during the individual runs of the tests. Per documentation found at https://docs.python.org/2/library/time.html, time.clock() when used on Unix, which is the case here, "returns the current processor time as a floating point number expressed in seconds."
+The biggest difficulty faced with implementation was learning a new language and exploring the vast libraries python has to offer in data analysis. You may see some C tendencies in the code which I plan on cleaning up later and making the code more "pythonic". To time the algorithms I used clock as part of the time module to count the ticks that occur during the individual runs of the tests. Per documentation found at [](https://docs.python.org/2/library/time.html), time.clock() when used on Unix, which is the case here, "returns the current processor time as a floating point number expressed in seconds." The code demonstrates how I used time.clock() to time the alogirthms.
 
 ```python
   t1 = time.clock()
@@ -24,7 +24,9 @@ The biggest difficulty faced with implementation is learning a new language and 
 
 
 #### Graph or tables of the run times of your algorithm implementations on various sized inputs. Do this with sorted and randomized inputs. Do your observations match the theoretical analysis from class? Why or why not?
-The default test framework will execute tests for three sorting algorithms: selection sort, merge sort and counting sort.  
+The test framework will execute tests for three sorting algorithms: selection sort, merge sort and counting sort. 
+I decided to work with these sorting algorithms because I was curious to see them plot out on the graph knowing that each three belong to difference time complexity classes. Selection sort's time complexity is O(n^2), merge sort's time complexity is O(nlog(n)) and counting sort is linear O(n) but there is a space and time trade off that isn't tracked in this study.
+<img src="https://latex.codecogs.com/gif.latex?O(n^2)" /> 
 
 [Click to view interactive Plotly line graph results for all sorts with small data sets](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Default test results link")  
 [![](https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/default_test.JPG)](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Default test image link")  
