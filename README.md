@@ -14,7 +14,7 @@ I chose to work with Python because I'm at the exciting stage in the language wh
 
 #### Did you run into any difficulties with the implementation? How are you timing the algorithms? What hardware are you timing on?  
 
-The biggest difficulty faced with implementation was learning a new language and exploring the vast libraries python has to offer in data analysis. You may see some C tendencies in the code which I plan on cleaning up later and making the code more "pythonic". To time the algorithms I used clock as part of the time module to count the ticks that occur during the individual runs of the tests. Per documentation found at [](https://docs.python.org/2/library/time.html), time.clock() when used on Unix, which is the case here, "returns the current processor time as a floating point number expressed in seconds." The code demonstrates how I used time.clock() to time the alogirthms.
+The biggest difficulty faced with implementation was learning a new language and exploring the vast libraries python has to offer in data analysis. You may see some C tendencies in the code which I plan on cleaning up later and making the code more _pythonic_. To time the algorithms I used clock as part of the time module to count the ticks that occur during the individual runs of the tests. Per documentation found at [](https://docs.python.org/2/library/time.html), time.clock() when used on Unix, which is the case here, "returns the current processor time as a floating point number expressed in seconds." The code demonstrates how I used time.clock() to time the alogirthms.
 
 ```python
   t1 = time.clock()
