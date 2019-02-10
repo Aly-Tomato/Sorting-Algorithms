@@ -26,8 +26,6 @@ The biggest difficulty faced with implementation was learning a new language and
 
 #### Graph or tables of the run times of your algorithm implementations on various sized inputs. Do this with sorted and randomized inputs. Do your observations match the theoretical analysis from class? Why or why not?
 
- The test framework will execute tests for three sorting algorithms: selection sort, merge sort and counting sort. 
-I decided to work with these sorting algorithms because I was curious to see them plot out on the graph knowing that each three belong to difference time complexity classes. Selection sort's time complexity is <img src="https://latex.codecogs.com/gif.latex?O(n^2)" />, merge sort's time complexity is <img src="https://latex.codecogs.com/gif.latex?O(nlog(n))" /> and counting sort is linear <img src="https://latex.codecogs.com/gif.latex?O(n)" /> but there is a space and time trade off that isn't tracked in this study.
 
 
 [Click to view interactive Plotly line graph results for all sorts with small data sets](https://htmlpreview.github.io/?https://github.com/Aly-Tomato/SortingAlgorithms/blob/master/Graph_4500.html "Default test results link")   
