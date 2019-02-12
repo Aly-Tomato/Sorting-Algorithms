@@ -7,7 +7,7 @@ $ git clone https://github.com/Aly-Tomato/SortingAlgorithms.git
 $ cd SortingAlgorithms
 $ python3 hw2.py  
 ```
-Or, download with the links above.
+Or, download with the links above.  
 _**To my knowledge, the plotly graphs below will work on Chrome but not on Firefox.**_  
 
 ## Project Write Up
