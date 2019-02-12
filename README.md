@@ -8,6 +8,7 @@ $ cd SortingAlgorithms
 $ python3 hw2.py  
 ```
 Or, download with the links above.
+_**To my knowledge, the plotly graphs below will work on Chrome but not on Firefox.**_  
 
 ## Project Write Up
 #### Briefly describe your development process. What sources did you use for your algorithms? What programming language did you choose and why?  
